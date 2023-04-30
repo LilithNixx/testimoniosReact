@@ -40,7 +40,7 @@ class App extends React.Component {
           {
             testimonios.map(testimonio => {
               return <Testimonio 
-              name={testimonio.name}
+              nombre={testimonio.nombre}
               pais={testimonio.pais}
               imagen={testimonio.imagen}
               cargo={testimonio.cargo}
