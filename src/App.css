@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(61, 67, 70);
+    font-family: Roboto, sans-serif;
+}
+
+.contenedor-principal {
+    width: 100%;
+    margin-bottom: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+
+    padding-top: 30px;
+}
